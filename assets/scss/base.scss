@@ -1,0 +1,48 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans TC", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--Neutral-900);
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+h2{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--Neutral-9 00);
+}
+h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--Neutral-900);
+}
+h5{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h6{
+    line-height: 1.2; 
+    font-weight: 700;
+    color: var(--Neutral-900);
+}
