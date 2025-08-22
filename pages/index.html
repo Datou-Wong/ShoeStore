@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>首頁</title>
   </head>
 
@@ -23,7 +24,7 @@
     <main>
       <div class="container">
         <!-- 新品上市 -->
-        <div class="my-64 my-md-40 px-md-6">
+        <div data-aos="fade-right" class="my-64 my-md-40 px-md-6">
           <div class="d-flex justify-content-center mb-32 mb-md-24">
             <div>
               <h2 class="textDisplay2 pb-12 h2-md">New Arrival</h2>
@@ -86,7 +87,7 @@
           </div>
         </div>
         <!-- 熱銷補貨 -->
-        <div class="my-64 my-md-40">
+        <div data-aos="fade-down-left" class="my-64 my-md-40">
           <h3 class="h2 h4-md pb-21 pb-md-16">熱銷補貨</h3>
           <div class="row overflow-x-md-auto product-md-row">
             <div class="col-3 product-md-col">
@@ -160,7 +161,7 @@
       </div>
       <div class="container">
         <!-- 依系列選購 -->
-        <div class="my-64">
+        <div data-aos="flip-right" class="my-64">
           <h3 class="h2 pb-16 h4-md">依系列選購</h3>
           <div class="row">
             <div class="col-3 set col-md-2 mb-md-12">
@@ -202,7 +203,7 @@
           </div>
         </div>
         <!-- 穿搭靈感 -->
-        <div class="inspiration my-64">
+        <div data-aos="zoom-out-up" class="inspiration my-64">
           <h3 class="h2 pb-16 h4-md">穿搭靈感</h3>
           <div class="inspirationImg-row overflow-x-md-auto">
             <div class="inspirationImg-col-4">
@@ -261,5 +262,6 @@
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
